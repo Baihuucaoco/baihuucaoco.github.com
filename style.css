@@ -1,13 +1,69 @@
+.header{
+    text-align: center;
+}
+#skip{
+    background-color: aqua;
+    color: grey;
+    padding: 0.5%;
+    border-radius: 30px;
+    text-decoration: none;
+}
+body{
+    color: white;
+    background-image: url(img/inazuma1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#skip:hover{
+    background-color: violet;
+    color:aliceblue;
+    transition-duration: 500ms;
+}
 ul{
     display: flex;
+    justify-content: center;
     gap: 50px;
 }
 li{
     margin: 50px 0px 50px 0px;
 }
-.main{
-    margin-top: 1500%;
+.opinion{
+    backdrop-filter: blur(10px);
+    padding: 10px;
 }
+#back{
+    background-color: aqua;
+    color: black;
+    padding: 0.5%;
+    border-radius: 30px;
+    text-decoration: none;
+}
+#back:hover{
+    background-color: violet;
+    color:aliceblue;
+    transition-duration: 500ms;
+}
+.nav-inside{
+    background-color: aqua;
+    color: grey;
+    padding: 10px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.nav-inside:hover{
+    background-color: violet;
+    color:aliceblue;
+    transition-duration: 500ms;
+}
+.main{
+    
+    margin-top: 1500%;
+    margin-right: 380px;
+    margin-left: 380px;
+    text-align: center;
+}
+
 figcaption{
     font-size: 30px;
 }
